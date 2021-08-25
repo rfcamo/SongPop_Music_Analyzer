@@ -8,6 +8,7 @@ function prediction(trackname) {
         return e.track == trackname;
     });
     let songlist = Object.values(bigCities[0]);
+    document.getElementById('poprate').innerHTML="";
     document.getElementById('trackname').value = songlist[0];
     document.getElementById('artist').value = songlist[1];
     document.getElementById('Acousticness').value = songlist[2];
@@ -89,16 +90,12 @@ button.on("click", function(event) {
       .append("tr")
       .append("td")
         .attr("colspan", 7)
-        .html("<h4>Track not found! Press F5 to refresh page.</h4>");
+        .html("<h4>Track not found! <br>Reload list or Press F5 to refresh page.</h4>");
   };
  
   tableDisplay(filteredData);
   prediction(trackinput);
 });
-
-// function myFunction() {
-//   document.getElementById("songname").placeholder = "Enter Track Name";
-// }
 
 
 

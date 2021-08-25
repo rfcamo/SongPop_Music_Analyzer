@@ -129,11 +129,11 @@
                           <th>Liveness</th>                          
                         </tr>
                         <tr>
-                          <td><input  class="form-control" type="text" id="Acousticness" name="a" placeholder="Acousticness" required="required" value="{{ request.form['a'] }}" /></td>
-                          <td><input  class="form-control" type="text" id="Danceability" name="Danceability" placeholder="Danceability" required="required" value="{{ request.form['Danceability'] }}" /></label></td>
-                          <td><input  class="form-control" type="text" id="Energy" name="Energy" placeholder="Energy" required="required" value="{{ request.form['Energy'] }}"/></label></td>
-                          <td><input  class="form-control" type="text" id="Instrumentalness" name="Instrumentalness" placeholder="Instrumentalness" required="required" value="{{ request.form['Instrumentalness'] }}"/></label></td>
-                          <td><input  class="form-control" type="text" id="Liveness" name="Liveness" placeholder="Liveness" required="required" value="{{ request.form['Liveness'] }}"/></label></td>               
+                          <td><input  class="form-control" type="number" step='any' id="Acousticness" name="a" placeholder="Acousticness" required="required" value="{{ request.form['a'] }}" /></td>
+                          <td><input  class="form-control" type="number" step='any' id="Danceability" name="Danceability" placeholder="Danceability" required="required" value="{{ request.form['Danceability'] }}" /></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="Energy" name="Energy" placeholder="Energy" required="required" value="{{ request.form['Energy'] }}"/></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="Instrumentalness" name="Instrumentalness" placeholder="Instrumentalness" required="required" value="{{ request.form['Instrumentalness'] }}"/></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="Liveness" name="Liveness" placeholder="Liveness" required="required" value="{{ request.form['Liveness'] }}"/></label></td>               
                         </tr>         
                         <tr>
                           <th>Speechiness</th>
@@ -143,11 +143,11 @@
                           <th>key_A#</th>                          
                         </tr>
                         <tr>
-                          <td><input  class="form-control" type="text" id="Speechiness" name="Speechiness" placeholder="Speechiness" required="required" value="{{ request.form['Speechiness'] }}"/></label></td>
-                          <td><input  class="form-control" type="text" id="Tempo" name="Tempo" placeholder="Tempo" required="required" value="{{ request.form['Tempo'] }}"/></label></td>
-                          <td><input  class="form-control" type="text" id="Valence" name="Valence" placeholder="Valence" required="required" value="{{ request.form['Valence'] }}"/></label></td>
-                          <td><input  class="form-control" type="text" id="key_A" name="key_A" placeholder="key_A" required="required" value="{{ request.form['key_A'] }}"/></label></td>
-                          <td><input  class="form-control" type="text" id="key_A#" name="key_A#" placeholder="key_A#" required="required" value="{{ request.form['key_A#'] }}"/></label></td>                
+                          <td><input  class="form-control" type="number" step='any' id="Speechiness" name="Speechiness" placeholder="Speechiness" required="required" value="{{ request.form['Speechiness'] }}"/></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="Tempo" name="Tempo" placeholder="Tempo" required="required" value="{{ request.form['Tempo'] }}"/></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="Valence" name="Valence" placeholder="Valence" required="required" value="{{ request.form['Valence'] }}"/></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="key_A" name="key_A" placeholder="key_A" required="required" value="{{ request.form['key_A'] }}"/></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="key_A#" name="key_A#" placeholder="key_A#" required="required" value="{{ request.form['key_A#'] }}"/></label></td>                
                         </tr>  
                         <tr>
                           <th>key_B</th>
@@ -157,11 +157,11 @@
                           <th>key_D#</th>                          
                         </tr>
                         <tr>
-                          <td><input  class="form-control" type="text" id="key_B" name="key_B" placeholder="key_B" required="required" value="{{ request.form['key_B'] }}"/></label></td>
-                          <td><input  class="form-control" type="text" id="key_C" name="key_C" placeholder="key_C" required="required" value="{{ request.form['key_C'] }}"/></label></td>
-                          <td><input  class="form-control" type="text" id="key_C#" name="key_C#" placeholder="key_C#" required="required" value="{{ request.form['key_C#'] }}"/></label></td>
-                          <td><input  class="form-control" type="text" id="key_D" name="key_D" placeholder="key_D" required="required" value="{{ request.form['key_D'] }}"/></label></td>
-                          <td><input  class="form-control" type="text" id="key_D#" name="key_D#" placeholder="key_D#" required="required" value="{{ request.form['key_D#'] }}"/></label></td>               
+                          <td><input  class="form-control" type="number" step='any' id="key_B" name="key_B" placeholder="key_B" required="required" value="{{ request.form['key_B'] }}"/></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="key_C" name="key_C" placeholder="key_C" required="required" value="{{ request.form['key_C'] }}"/></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="key_C#" name="key_C#" placeholder="key_C#" required="required" value="{{ request.form['key_C#'] }}"/></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="key_D" name="key_D" placeholder="key_D" required="required" value="{{ request.form['key_D'] }}"/></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="key_D#" name="key_D#" placeholder="key_D#" required="required" value="{{ request.form['key_D#'] }}"/></label></td>               
                         </tr>         
                         <tr>
                           <th>key_E</th>
@@ -171,12 +171,12 @@
                           <th>key_G#</th>                          
                         </tr>
                         <tr>
-                          <td><input  class="form-control" type="text" id="key_E" name="key_E" placeholder="key_E" required="required" value="{{ request.form['key_E'] }}"/></label></td>
-                          <td><input  class="form-control" type="text" id="key_F" name="key_F" placeholder="key_F" required="required" value="{{ request.form['key_F'] }}"/></label></td>
-                          <td><input  class="form-control" type="text" id="key_F#" name="key_F#" placeholder="key_F#" required="required" value="{{ request.form['key_F#'] }}"/></label></td>
-                          <td><input  class="form-control" type="text" id="key_G" name="key_G" placeholder="key_G" required="required" value="{{ request.form['key_G'] }}"/></label></td>
-                          <td><input  class="form-control" type="text" id="key_G#" name="key_G#" placeholder="key_G#" required="required" value="{{ request.form['key_G#'] }}"/></label></td>                
-                        </tr>               
+                          <td><input  class="form-control" type="number" step='any' id="key_E" name="key_E" placeholder="key_E" required="required" value="{{ request.form['key_E'] }}"/></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="key_F" name="key_F" placeholder="key_F" required="required" value="{{ request.form['key_F'] }}"/></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="key_F#" name="key_F#" placeholder="key_F#" required="required" value="{{ request.form['key_F#'] }}"/></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="key_G" name="key_G" placeholder="key_G" required="required" value="{{ request.form['key_G'] }}"/></label></td>
+                          <td><input  class="form-control" type="number" step='any' id="key_G#" name="key_G#" placeholder="key_G#" required="required" value="{{ request.form['key_G#'] }}"/></label></td>                
+                        </tr>                
                       </table>                     			
                     </ul>
                   </div>                  
@@ -199,7 +199,8 @@
       </div>
     
       <footer class="footer">
-        <span class="bottom">Bootcamp Final Project</span>
+        <br>
+        <span class="bottom">Data Analyst Bootcamp Final Project</span>
         <br>
         <br>
       </footer>
